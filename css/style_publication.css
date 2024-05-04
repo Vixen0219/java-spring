@@ -1,10 +1,10 @@
 body {
 	margin : 0;
 	padding : 0;
-	background : #2e2e2e;
+	background : #2E4057;
 	color : #333;
-	font-family: "Trebuchet MS", verdana, arial, sans-serif;
-	font-size: 14px;
+	font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
 	line-height: 20px;
 	max-width: 200%;
 }
@@ -13,9 +13,9 @@ width : 1200px;
 margin-left : auto;
 margin-right : auto;
 padding : 0;
-border : 5px solid #2E4057;
-background : #e9eee4;
-color : #360;
+
+color: #696969;
+    background:linear-gradient(to right, #ffffff, #abbaab); 
 }
 
 #iiestlogo{
@@ -25,9 +25,8 @@ height :170px;
 display:table-cell; 
 vertical-align:middle; 
 text-align:center;
-border: 0px solid blue;
-color : #333;
-background : #2E4057;
+
+background: #4b6c9e;
 }
 
 #springerlogo {
@@ -37,9 +36,8 @@ height :170px;
 display:table-cell; 
 vertical-align:middle; 
 text-align:center;
-border: 0px solid blue;
-color : #333;
-background : #2E4057;
+
+background: #4b6c9e;
 }
 
 			/*TOP BANNER*/
@@ -50,7 +48,7 @@ height : 170px;
 padding : 0;
 margin : 0;
 color : #333;
-background : #2E4057;
+background: #4b6c9e;
 /* url(img/topimg.jpg) no-repeat;*/
 }
 #topimg h1 {
@@ -65,7 +63,7 @@ margin-left: 60px;
 font-size : 17px;
 letter-spacing: 3px;
 color : #fff;
-background : #2f2d2e;
+background: #4b6c9e;
 }
 #topimg h2 {
 text-align: center;
@@ -78,7 +76,7 @@ margin-left: 60px;
 font-size : 13px;
 letter-spacing: 3px;
 color : #fff;
-background : #2f2d2e;
+background: #4b6c9e;
 }
 #topimg h3 {
 text-align: center;
@@ -93,54 +91,60 @@ margin-bottom: 0px;
 font-size : 13px;
 letter-spacing: 3px;
 color : #fff;
-background : #2f2d2e;
+background: #4b6c9e;
 }
-			/*TOP NAVIGATIONY*/
+
+/*TOP NAVIGATIONY*/
 #navcontainer ul {
 float : left;
 width : 100%;
-padding-left : 0;
-margin : 0 0 20px 0;
-font-size : 18px;
-border-top : 1px solid #fff;
-border-bottom : 1px solid #fff;
-background : #2F2D2E;
-color : #333;
+height: 100%;
+position: relative;
+font-size:medium;
+font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+margin: 0px;
+padding: 0px;
+background-color:#51ACCC;
 
 }
 #navcontainer ul li {
 display : inline;
+
+    text-align:center;
+    line-height:35px;
+    float:left;
+    position:relative;
 }
 #navcontainer ul li a {
 float : left;
 padding : 0.2em 1em;
 text-decoration : none;
-border-right : 1px solid #fff;
-background : #2F2D2E;
-color : #fff;
+
+color:#fff;
+display:block;
 }
-#navcontainer ul li a:hover, #navcontainer ul li a#current {
-background : #F18F01;
-color : #000;
+#navcontainer ul li a:hover {
+	background-color:#38788E;
+    	color:#fff;
 }
 			/*MAIN CONTENT*/
 #content {
 margin : 0  270px 0 220px;
 padding : 5px;
-border-left : 1px dashed #999;
-border-right : 1px dashed #999;
-background : inherit;
-color : #333;
+
 }
 #content a:link, #content a:visited {
 text-decoration : underline;
-background : inherit;
-color : #2E4057;
+background-color:#38788E;
+	color:#fff;
 }
 #content a:hover {
-background : inherit;
-color : #91AE00;
+	background-color:#38788E;
+	color:#fff;
 }
+
+
+
 			/*SIDEBAR*/
 #sidebarleft {
 float : left;
@@ -148,7 +152,7 @@ width : 200px;
 height: 750px;
 margin : 0 10px 0 0;
 padding : 5px;
-background : #e9eee4;
+background-color: #D1DDF1;
 color : #333;
 }
 #sidebarright {
@@ -157,7 +161,7 @@ width : 250px;
 word-wrap : break-word;
 margin : 0 0 0 10px;
 padding : 5px;
-background : #e9eee4;
+background-color: #D1DDF1;
 color : #333;
 }
 
@@ -175,24 +179,61 @@ color : #666;
 background : inherit;
 }
 .sidemenu ul li a {
-	background : transparent url(../images/list-off.gif) no-repeat left center;
+	background : transparent url(img/list-off.gif) no-repeat left center;
 	padding-left : 15px;
 	text-decoration : none;
 	color : #000;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
-	font-size: 14px;
+	font-size:medium;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 }
 .sidemenu ul li a:hover {
-background : transparent url(../images/list-on.gif) no-repeat left center;
+background : transparent url(img/list-on.gif) no-repeat left center;
 color : #666;
 }
 .sidemenu ul li a#current {
-background : transparent url(../images/list-active.gif) no-repeat left center;
+background : transparent url(img/list-active.gif) no-repeat left center;
 color : #666;
 }
+
+#button
+{
+background-color: #1bb2e9;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+
+
+
+width: 200px; 
+height: 30px; 
+-webkit-appearance:none
+}
+#button:hover
+{background-color: #0079ce;
+border: none;
+border-radius: 0px 3px 3px 0px;
+-moz-border-radius: 0px 3px 3px 0px;
+-webkit-border-radius: 0px 3px 3px 0px;
+
+}
+#link
+{text-align: center;
+	margin : auto;
+	padding: 2px;
+	font-size : 13px;
+	letter-spacing: 3px;
+	color : #fff;
+	text-decoration: none;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+text-transform: uppercase;
+}
+    
+
 			/*FOOTER*/
 #footer {
 clear : both;
@@ -201,7 +242,7 @@ height : 20px;
 margin : 0;
 font-size : 90%;
 border-top : 1px solid #fff;
-background : #2E4057;
+background: #4b6c9e;
 color : #333;
 }
 #footer a:link, #footer a:visited {
@@ -246,7 +287,7 @@ font-size : 120%;
 text-transform : uppercase;
 letter-spacing : 5px;
 color : #fff;
-background : #2E4057;
+background: #4b6c9e;
 }
 			/*CLASSES*/
 .img {
@@ -265,17 +306,17 @@ border : 0 dashed #8a795d;
 font-size : 13px;
 } 
 .post .date { 
-background : url(../images/clock.gif) no-repeat left center;
+background : url(img/clock.gif) no-repeat left center;
 padding-left : 15px;
 margin : 0 15px 0 5px;
 } 
 .post .comments { 
-background : url(../images/comment.gif) no-repeat left center;
+background : url(img/comment.gif) no-repeat left center;
 padding-left : 15px;
 margin : 0 15px 0 5px;
 } 
 .post .readmore { 
-background : url(../images/document.gif) no-repeat left center;
+background : url(img/document.gif) no-repeat left center;
 padding-left : 15px;
 margin : 0 15px 0 5px;
 } 

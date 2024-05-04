@@ -1,0 +1,101 @@
+﻿/*Loading formatting starts here*/
+div.center /*For Loading*/
+{
+    z-index:800;
+    margin:80px auto;
+    height:540px;
+    width: 540px;
+    background-color:White;
+    border-radius: 10px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+   
+}
+div.modal
+{
+    z-index:800;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /*background-color: Black;*/
+    background-color:#f5fcff;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+}
+
+/*Confirm Message box pop-up formatting*/
+
+ .modalBackground
+    {
+        background-color: #f5fcff;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
+    }
+ .modalPopup .header
+    {
+        background-color: #2FBDF1;
+        height: 30px;
+        color: White;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+     .modalPopup .body
+    {
+        min-height: 50px;
+        line-height: 30px;
+        text-align: center;
+         text-align: center;
+         background-color:White;
+          font-size:medium;
+        font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    }
+     .modalPopup .footer
+    {
+        padding: 6px;
+        text-align: center;
+         background-color:White;
+    }
+
+
+.ModalButton
+{
+background-color: #1bb2e9;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 23px;
+line-height: 23px;
+text-transform: uppercase;
+-webkit-appearance:none
+}
+.ModalButton:hover
+{background-color: #0079ce;
+border: none;
+border-radius: 0px 3px 3px 0px;
+-moz-border-radius: 0px 3px 3px 0px;
+-webkit-border-radius: 0px 3px 3px 0px;
+color: #f4f4f4;
+cursor: pointer;
+height: 23px;
+line-height: 23px;
+text-transform: uppercase;
+}
+  
+    /*validator Callout */
+    .CustomValidatorCalloutStyle div, 
+.CustomValidatorCalloutStyle td
+ { 
+    border:solid 1px blue; 
+    background-color: #ADD8E6; 
+    width:auto;
+}
