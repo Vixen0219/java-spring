@@ -56,14 +56,14 @@ background: #4b6c9e;
 		background: #4b6c9e;
 			}
 #caption{
-position: fixed;
+position: absolute;
 top:150px;
 margin-left: 1050px;
 font-family: "sans-serif";
 font-size : 13px;
 letter-spacing: 3px;
 color : #fff;
-
+width: 200px;
 }
 
 			/*TOP BANNER*/
