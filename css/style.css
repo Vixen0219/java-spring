@@ -39,6 +39,18 @@ text-align:center;
 
 background: #4b6c9e;
 }
+#uemlogo {
+position: absolute;
+margin-left: 15%;
+
+background: #4b6c9e;
+	}
+	#iemlogo {
+		position: absolute;
+		margin-left: 40%;
+		
+		background: #4b6c9e;
+			}
 
 			/*TOP BANNER*/
 #topimg {
@@ -61,7 +73,7 @@ margin : auto;
 margin-right: 60px;
 margin-left: 60px;
 font-size : 17px;
-letter-spacing: 3px;
+letter-spacing: 2.5px;
 color : #fff;
 background: #4b6c9e;
 }
@@ -84,7 +96,7 @@ margin : auto;
 margin-right: 60px;
 margin-left: 60px;
 position: relative;
-top: 30px;
+top: 10px;
 left: 2px;
 margin-top: 10px;
 margin-bottom: 0px; 
