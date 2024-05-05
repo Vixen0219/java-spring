@@ -52,6 +52,19 @@ background: #4b6c9e;
 		
 		background: #4b6c9e;
 			}
+#caption{
+	text-align: center;
+
+margin-left: 68.5%;
+position: absolute;
+
+margin-top: 150px;
+
+font-size : 13px;
+letter-spacing: 3px;
+color : #fff;
+background: #4b6c9e;
+}
 
 			/*TOP BANNER*/
 #topimg {
